@@ -12,7 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
   </head>
@@ -27,11 +28,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <form class="form-inline mt-2 mt-md-0 ml-auto">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="http://example.com" id="searchMenuDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></a>
+              <div class="dropdown-menu" id="searchMenuDropdownDiv" aria-labelledby="searchMenuDropdown">
+                <input type="text" placeholder="  Search"><button>Go</button>
+              </div>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
