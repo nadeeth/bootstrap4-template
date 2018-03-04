@@ -1,15 +1,40 @@
-/*!
-This comment should not be removed.
-*/
-nav ul {
-  margin: 0;
-  padding: 6px;
-  list-style: none; }
+/* Globals */
+a,
+a:focus,
+a:hover {
+  color: #000; }
 
-nav li {
-  display: inline-block; }
+/* End of Globals */
+/* Base structure */
+html,
+body {
+  height: 100%; }
 
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none; }
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #333; }
+
+/* End of Base structure */
+/* Header */
+/* End of Header */
+/* Footer */
+/* End of Footer */
+/* Fullscreen Home / Cover Home */
+.cover-container {
+  background-image: url("../images/backgrounds/bg1.jpg");
+  background-size: cover; }
+  .cover-container .cover {
+    padding: 0 1.5rem;
+    max-width: 42em;
+    margin-left: auto;
+    margin-right: auto; }
+  .cover-container .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700; }
+
+/* End of Fullscreen Home / Cover Home */

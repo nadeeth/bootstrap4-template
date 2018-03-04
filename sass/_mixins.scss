@@ -1,0 +1,12 @@
+
+@mixin display-flex() {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+@mixin justify-content($direction) {
+    -ms-flex-pack: $direction;
+    -webkit-box-pack: $direction;
+    justify-content: $direction;
+}

@@ -1,20 +1,62 @@
-$padding: 6px;
+@import 'colors';
+@import 'fonts';
+@import 'mixins';
 
-/*!
-This comment should not be removed.
-*/
-nav {
-  ul {
-    margin: 0;
-    padding: $padding;
-    list-style: none;
+
+/* Globals */
+a,
+a:focus,
+a:hover {
+  color: $link-color;
+}
+/* End of Globals */
+
+
+/* Base structure */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @include display-flex();
+  @include justify-content(center);
+  color: $paragraph-color;
+}
+/* End of Base structure */
+
+
+/* Header */
+header { 
+  //margin-bottom: 2rem;
+}
+/* End of Header */
+
+
+/* Footer */
+footer {
+  //color: rgba(255, 255, 255, .5);
+}
+/* End of Footer */
+
+
+/* Fullscreen Home / Cover Home */
+.cover-container {
+  
+  background-image: url("../images/backgrounds/bg1.jpg");
+  background-size: cover;
+
+  .cover {
+    padding: 0 1.5rem;
+    max-width: 42em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  li { display: inline-block; }
-
-  a {
-    display: block;
-    padding: $padding 12px;
-    text-decoration: none;
+  .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
   }
 }
+/* End of Fullscreen Home / Cover Home */
+
