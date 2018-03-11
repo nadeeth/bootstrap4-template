@@ -29,6 +29,34 @@ body {
 /* Header */
 header { 
   //margin-bottom: 2rem;
+
+  .navbar {
+
+    .dropdown-menu {
+
+      border-radius: 0;
+      background-color: #111;
+      opacity: 0.9;
+
+      .dropdown-item {
+        
+        color: #BBB;
+
+        &:hover {
+          color: #222;
+        }
+      }
+
+      .dropdown-divider {
+        opacity: 0.2;
+      }
+    }
+
+    .navbar-collapse.show {
+      background-color: #000;
+      // opacity: 0.9;
+    }
+  }
 }
 /* End of Header */
 
@@ -40,23 +68,46 @@ footer {
 /* End of Footer */
 
 
-/* Fullscreen Home / Cover Home */
+/* Fullscreen Home */
 .cover-container {
   
   background-image: url("../images/backgrounds/bg1.jpg");
   background-size: cover;
 
   .cover {
-    padding: 0 1.5rem;
+    padding: 1.5rem;
     max-width: 42em;
     margin-left: auto;
     margin-right: auto;
+    // background-color: #000;
+    // opacity: 0.7;
+    // border-radius: 8px;
+
+    p {
+      color: #FFF;
+      text-shadow: 0px 0px 4px rgba(53, 53, 53, 1);
+    }
+
+    h1 {
+      color: #FFF; 
+      text-shadow: 0px 0px 4px rgba(53, 53, 53, 1);
+    }
   }
 
   .btn-lg {
     padding: .75rem 1.25rem;
     font-weight: 700;
   }
+
 }
-/* End of Fullscreen Home / Cover Home */
+/* End of Fullscreen Home */
+
+/* Fullscreen slider Home */
+.home-slider {
+
+  .d-block {
+    object-fit: cover;
+  }
+}
+/* End of Fullscreen Home */
 
