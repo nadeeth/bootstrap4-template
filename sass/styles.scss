@@ -105,8 +105,20 @@ footer {
 /* Fullscreen slider Home */
 .home-slider {
 
-  .d-block {
+  img.d-block {
     object-fit: cover;
+  }
+
+  .carousel-caption {
+    bottom: 35%; 
+
+    h1 {
+      text-shadow: 0px 0px 4px rgba(53, 53, 53, 1);
+    }
+
+    p {
+      text-shadow: 0px 0px 4px rgba(53, 53, 53, 1);
+    }
   }
 }
 /* End of Fullscreen Home */
