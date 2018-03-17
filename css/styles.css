@@ -35,6 +35,10 @@ header .navbar .dropdown-menu {
 header .navbar .navbar-collapse.show {
   background-color: #000; }
 
+header .bg-dark {
+  background-color: #000 !important;
+  opacity: 0.9; }
+
 /* End of Header */
 /* Footer */
 /* End of Footer */
@@ -59,14 +63,14 @@ header .navbar .navbar-collapse.show {
 
 /* End of Fullscreen Home */
 /* Fullscreen slider Home */
-.home-slider img.d-block {
+.cover-slider-container img.d-block {
   object-fit: cover; }
 
-.home-slider .carousel-caption {
+.cover-slider-container .carousel-caption {
   bottom: 35%; }
-  .home-slider .carousel-caption h1 {
+  .cover-slider-container .carousel-caption h1 {
     text-shadow: 0px 0px 4px #353535; }
-  .home-slider .carousel-caption p {
+  .cover-slider-container .carousel-caption p {
     text-shadow: 0px 0px 4px #353535; }
 
 /* End of Fullscreen Home */
@@ -91,3 +95,61 @@ header .navbar .navbar-collapse.show {
     border-radius: 14px; }
 
 /* End of Searh Modal */
+/* Home page slider */
+.home-slider {
+  width: 100%;
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  /* Center align the text within the three columns below the carousel */
+  /* Featurettes
+  ------------------------- */
+  /* Thin out the marketing headings */ }
+  .home-slider .carousel {
+    margin-bottom: 4rem; }
+    .home-slider .carousel img {
+      object-fit: cover; }
+  .home-slider .carousel-caption {
+    bottom: 3rem;
+    z-index: 10; }
+  .home-slider .carousel-item {
+    height: 32rem;
+    background-color: #777; }
+  .home-slider .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem; }
+  .home-slider .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center; }
+  .home-slider .marketing h2 {
+    font-weight: 400; }
+  .home-slider .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem; }
+  .home-slider .featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */ }
+  .home-slider .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem; }
+
+/* End of Home page slider */
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
