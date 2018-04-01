@@ -41,6 +41,29 @@ header .bg-dark {
 
 /* End of Header */
 /* Footer */
+footer {
+  color: #FFF;
+  background-color: #000;
+  padding: 54px 0 22px 0; }
+  footer .social-icons {
+    list-style: none; }
+    footer .social-icons li {
+      float: left;
+      padding: 0 10px;
+      font-size: 22px; }
+  footer p {
+    color: #FFF; }
+  footer a {
+    color: #FFF; }
+    footer a:hover {
+      color: #888;
+      text-decoration: unset; }
+  footer .center {
+    text-align: center; }
+  footer .copyright {
+    font-size: 11px;
+    margin-top: -14px; }
+
 /* End of Footer */
 /* Fullscreen Home */
 .cover-container {
