@@ -45,9 +45,12 @@ header .bg-dark {
   margin-bottom: 120px; }
   .portfolio .banner img {
     object-fit: cover; }
-  .portfolio .banner .breadcrumbs {
+  .portfolio .banner h3 {
     text-align: center;
-    margin-top: -80px; }
+    color: #fff;
+    margin-top: -140px; }
+  .portfolio .banner .breadcrumbs {
+    text-align: center; }
     .portfolio .banner .breadcrumbs div {
       display: inline-block;
       background-color: rgba(10, 10, 10, 0.5);

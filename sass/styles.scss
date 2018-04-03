@@ -63,9 +63,13 @@ header {
     img {
       object-fit: cover;
     }
+    h3 {
+      text-align: center;
+      color: #fff;
+      margin-top: -140px;
+    }
     .breadcrumbs {
       text-align: center;
-      margin-top: -80px;
       div {
         display: inline-block; 
         background-color: rgba(10,10,10, 0.5);
