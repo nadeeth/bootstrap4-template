@@ -33,7 +33,9 @@ header .navbar .dropdown-menu {
     opacity: 0.2; }
 
 header .navbar .navbar-collapse.show {
-  background-color: #000; }
+  background-color: #000;
+  padding: 25px;
+  text-align: center; }
 
 header .bg-dark {
   background-color: #000 !important;
@@ -41,24 +43,24 @@ header .bg-dark {
 
 /* End of Header */
 /* Top banner section */
-.portfolio .banner {
-  margin-bottom: 120px; }
-  .portfolio .banner img {
+.top-banner {
+  margin-bottom: 140px; }
+  .top-banner img {
     object-fit: cover; }
-  .portfolio .banner h3 {
+  .top-banner h3 {
     text-align: center;
     color: #fff;
     margin-top: -140px; }
-  .portfolio .banner .breadcrumbs {
+  .top-banner .breadcrumbs {
     text-align: center; }
-    .portfolio .banner .breadcrumbs div {
+    .top-banner .breadcrumbs div {
       display: inline-block;
       background-color: rgba(10, 10, 10, 0.5);
       padding: 8px 25px;
       border-radius: 8px;
       font-size: 16px;
       color: #aaa; }
-      .portfolio .banner .breadcrumbs div a {
+      .top-banner .breadcrumbs div a {
         color: #fff;
         text-decoration: none; }
 
@@ -187,3 +189,19 @@ footer {
     margin: 5rem 0; }
 
 /* End of Home page slider */
+/* Portfolio page */
+.portfolio .portfolio-body {
+  margin-bottom: 100px; }
+  .portfolio .portfolio-body h1 {
+    text-align: center; }
+  .portfolio .portfolio-body > p {
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 0 80px; }
+  .portfolio .portfolio-body .card-deck {
+    margin-bottom: 60px; }
+  .portfolio .portfolio-body p {
+    font-weight: 400;
+    color: #666; }
+
+/* End of portfolio page */

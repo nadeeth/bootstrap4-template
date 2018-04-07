@@ -46,6 +46,8 @@ header {
     }
     .navbar-collapse.show {
       background-color: #000;
+      padding: 25px;
+      text-align: center;
       // opacity: 0.9;
     }
   }
@@ -57,30 +59,28 @@ header {
 /* End of Header */
 
 /* Top banner section */
-.portfolio {
-  .banner {
-    margin-bottom: 120px;
-    img {
-      object-fit: cover;
-    }
-    h3 {
-      text-align: center;
-      color: #fff;
-      margin-top: -140px;
-    }
-    .breadcrumbs {
-      text-align: center;
-      div {
-        display: inline-block; 
-        background-color: rgba(10,10,10, 0.5);
-        padding: 8px 25px;
-        border-radius: 8px;
-        font-size: 16px;
-        color: #aaa;
-        a {
-          color: #fff;
-          text-decoration: none;
-        }
+.top-banner {
+  margin-bottom: 140px;
+  img {
+    object-fit: cover;
+  }
+  h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: -140px;
+  }
+  .breadcrumbs {
+    text-align: center;
+    div {
+      display: inline-block; 
+      background-color: rgba(10,10,10, 0.5);
+      padding: 8px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      color: #aaa;
+      a {
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
@@ -260,3 +260,26 @@ footer {
   }
 }
 /* End of Home page slider */
+
+/* Portfolio page */
+.portfolio {
+  .portfolio-body {
+    margin-bottom: 100px;
+    h1 {
+      text-align: center;
+    }
+    > p {
+      margin-bottom: 70px;
+      text-align: center;
+      padding: 0 80px;
+    }
+    .card-deck { 
+      margin-bottom: 60px;
+    }
+    p {
+      font-weight: 400;
+      color: #666;
+    }
+  }
+}
+/* End of portfolio page */
