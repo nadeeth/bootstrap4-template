@@ -207,3 +207,23 @@ footer {
 /* End of portfolio page */
 /* Porffloio single page */
 /* End of portfolio single page */
+/* News List */
+.news .news-body {
+  margin-bottom: 100px; }
+  .news .news-body h1 {
+    text-align: center; }
+  .news .news-body > p {
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 0 80px; }
+  .news .news-body .row {
+    margin-bottom: 60px; }
+  .news .news-body p {
+    font-weight: 400;
+    color: #666; }
+  .news .news-body .pagination {
+    margin-top: 100px; }
+    .news .news-body .pagination a {
+      color: #000; }
+
+/* End of News List */
