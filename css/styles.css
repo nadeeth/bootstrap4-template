@@ -218,6 +218,12 @@ footer {
     padding: 0 80px; }
   .news .news-body .row {
     margin-bottom: 60px; }
+    .news .news-body .row .date {
+      font-size: 14px;
+      line-height: 35px;
+      display: block;
+      margin-top: -18px;
+      color: #999; }
   .news .news-body p {
     font-weight: 400;
     color: #666; }
