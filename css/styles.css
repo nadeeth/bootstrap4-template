@@ -268,3 +268,17 @@ footer {
     color: #888; }
 
 /* End of News Single */
+/* About Page */
+.about .about-body h5 {
+  color: #888; }
+
+.about .about-body p {
+  color: #555; }
+
+.about .about-body .row {
+  margin-bottom: 80px; }
+
+.about .about-body .featured-img {
+  width: 100%; }
+
+/* End of About Page */
