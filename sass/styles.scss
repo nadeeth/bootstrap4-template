@@ -410,3 +410,19 @@ footer {
   }
 }
 /* End of Contact page */
+
+/* Page Not Found */
+.page-not-found {
+  .page-not-found-body {
+    .graphic {
+      margin: 40px 0;
+      i {
+        font-size: 200px;
+      }
+    }
+    button {
+      margin-bottom: 50px;
+    }
+  }
+}
+/* End of Page Not Found */
