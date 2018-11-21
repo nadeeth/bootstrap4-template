@@ -6,3 +6,5 @@ Multi purpose bootstrap 4 template.
 * npm install
 * gulp watch
 * Start working with sass/styles.scss and js/custom/
+
+Demo: https://nadeeth.github.io/bootstrap4-template/home-fullscreen.html
